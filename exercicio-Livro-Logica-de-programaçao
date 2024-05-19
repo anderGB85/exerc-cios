@@ -25,3 +25,35 @@
     
 </body>
 </html>
+
+
+
+EXERCICIO CALCULO DE PORCENTAGEM
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+     const valorProd = Number(prompt("Digite o valor do produto:"))
+     const prodVista =  valorProd - (valorProd * 10/100)
+     const prodParce = valorProd / 3
+     alert(`Preço R$ ${valorProd}\n` + ` Pagamento à vistaR$ ${prodVista}\n` + ` Pagamento parcelado em 3x sem juros R$ ${prodParce}`);
+
+
+
+
+
+
+
+
+
+
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
