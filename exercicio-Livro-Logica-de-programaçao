@@ -28,7 +28,7 @@
 
 
 
-EXERCICIO CALCULO DE PORCENTAGEM
+EXERCICIO CALCULO DE PORCENTAGEM (JAVASCRIPT)
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -50,6 +50,35 @@ EXERCICIO CALCULO DE PORCENTAGEM
 
 
 
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+MÉDIA DAS NOTAS (JAVASCRIPT)
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+     const N1= Number(prompt("Digite o valor do produto:"))
+     const N2 = Number(prompt("Digite o valor do produto:"))
+     const media =  (N1 + N2) /2
+     
+     alert(`Primeira nota ${N1}\n` + ` Segunda nota ${N2}\n` + `Média ${media}`);
     </script>
     <title>Document</title>
 </head>
