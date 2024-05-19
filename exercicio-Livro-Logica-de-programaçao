@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+     const valorConta = Number(prompt("Digite o valor da conta:"))
+     const numCliente = Number(prompt("Quantas pessoas vão pagar a conta?:"))
+     const valorCliente = valorConta / numCliente
+     alert(`O valor dividido para cada um é: ${valorCliente}`)
+
+
+
+
+
+
+
+
+
+
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
